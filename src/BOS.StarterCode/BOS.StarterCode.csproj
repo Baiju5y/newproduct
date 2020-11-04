@@ -36,7 +36,4 @@
       <HintPath>..\..\bos-client-libraries\BOS.IA.Client.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Scripts\" />
-  </ItemGroup>
 </Project>
