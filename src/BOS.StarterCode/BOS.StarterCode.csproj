@@ -17,6 +17,15 @@
     <Content Remove="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Data\Scripts\rtl.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Scripts\rtl.css">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.6" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.6" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
