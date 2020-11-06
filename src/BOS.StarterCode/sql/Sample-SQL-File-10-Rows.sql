@@ -1,12 +1,3 @@
---
--- Database: `samplevideo_db`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `user_details`
---
 
 CREATE TABLE IF NOT EXISTS `user_details` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
